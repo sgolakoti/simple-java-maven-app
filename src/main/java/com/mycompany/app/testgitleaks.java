@@ -4,7 +4,7 @@ public class Example {
     public static void main(String[] args) {
         try {
             // Connect to the database
-            Connection conn = DriverManager.getConnection("jdbc:mysql://hostname:port/database", "username", PASSWORD);
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3550/orcl", "username", PASSWORD);
             // Do something with the connection
             // ...
             // Close the connection
